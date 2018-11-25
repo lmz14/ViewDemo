@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LineSpaceExtraTextViewActivity"
+    android:orientation="vertical"
+    android:padding="20dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="original data"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="7.5dp"
+        android:lineSpacingExtra="5dp"
+        android:text="男士衬衣2018秋季寸衣潮流休闲加厚加绒保暖韩版修身条纹长袖衬衫/男士衬衣2018秋季寸衣潮流休闲加厚加绒保暖韩版修身条纹长袖衬衫"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="店铺名称"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="#d8d8d8"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="Use TextView"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="7.5dp"
+        android:lineSpacingExtra="5dp"
+        android:maxLines="2"
+        android:text="男士衬衣2018秋季寸衣潮流休闲加厚加绒保暖韩版修身条纹长袖衬衫/男士衬衣2018秋季寸衣潮流休闲加厚加绒保暖韩版修身条纹长袖衬衫"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="店铺名称"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="#d8d8d8"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="Use LineSpaceExtraTextView"
+        android:textStyle="bold"/>
+
+    <com.viewdemo.view.LineSpaceExtraTextView
+        android:id="@+id/tvTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="7.5dp"
+        android:lineSpacingExtra="5dp"
+        android:maxLines="2"
+        android:text="男士衬衣2018秋季寸衣潮流休闲加厚加绒保暖韩版修身条纹长袖衬衫/男士衬衣2018秋季寸衣潮流休闲加厚加绒保暖韩版修身条纹长袖衬衫"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="店铺名称"/>
+
+</LinearLayout>

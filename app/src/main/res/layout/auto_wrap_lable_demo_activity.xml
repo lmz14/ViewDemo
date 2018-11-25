@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".AutoWrapLableDemoActivity">
+    <com.viewdemo.view.AutoWrapLableLayout
+        android:id="@+id/autoWrapAbleLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dip"
+        app:leftAndRightSpace="20dp"
+        app:rowSpace="20dp"/>
+</LinearLayout>

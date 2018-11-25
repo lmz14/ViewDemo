@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="AutoWrapLableLayout">
+        <!--标签之间左右距离-->
+        <attr name="leftAndRightSpace" format="dimension" />
+        <!--标签行距-->
+        <attr name="rowSpace" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="LetterIndexSlideBar">
+        <!-- slide bar 有效内容背景 -->
+        <attr name="backgroundColor" format="color|reference"/>
+        <!-- slide bar 文字颜色 -->
+        <attr name="textColor" format="color|reference"/>
+        <!-- slide bar　文字大小 -->
+        <attr name="textSize" format="dimension"/>
+        <!-- slide bar pading -->
+        <attr name="paddingRight" format="dimension"/>
+        <attr name="paddingLeft" format="dimension"/>
+        <attr name="paddingTop" format="dimension"/>
+        <attr name="paddingBottom" format="dimension"/>
+        <attr name="contentPadding" format="dimension"/>
+        <!-- slide bar　宽度 -->
+        <attr name="barWidth" format="dimension"/>
+        <!-- slide bar 左侧提示view宽度 -->
+        <attr name="leftHintViewWidth" format="dimension"/>
+        <!-- slide bar 左侧提示view高度 -->
+        <attr name="leftHintViewHeight" format="dimension"/>
+        <!-- slide bar 左侧提示view背景 -->
+        <attr name="leftHintViewBgRes" format="reference"/>
+        <!-- slide bar 左侧提示view提示文字大小 -->
+        <attr name="hintTextSize" format="dimension"/>
+        <!-- slide bar 左侧提示view提示文字颜色 -->
+        <attr name="hintTextColor" format="color|reference"/>
+        <!-- slide bar 选中字体大小-->
+        <attr name="selectTextSize" format="dimension"/>
+        <!-- slide bar 选中字体颜色-->
+        <attr name="selectTextColor" format="color|reference"/>
+        <!-- slide bar 选中圆背景颜色-->
+        <attr name="selectCircleBackgroundColor" format="color|reference"/>
+        <!-- slide bar 选中圆半径大小-->
+        <attr name="selectCircleRadius" format="dimension"/>
+    </declare-styleable>
+</resources>

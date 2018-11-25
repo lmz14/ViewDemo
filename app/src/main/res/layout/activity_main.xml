@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/btnAutoWrapAbleDemo"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="auto warp able demo"/>
+        <Button
+            android:id="@+id/btnThreadPoolExecutor"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:text="ThreadPoolExecutor demo"/>
+        <Button
+            android:id="@+id/btnLetterIndexSlideBar"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:text=" letter index slide bar"/>
+
+        <Button
+            android:id="@+id/btnWebView"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:text="WebView demo"/>
+
+        <Button
+            android:id="@+id/btnTextView"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:text="去除TextView最后一行底部行间距"/>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

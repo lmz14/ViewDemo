@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LetterIndexSlideBarActivity">
+    <com.viewdemo.view.LetterIndexSlideBar
+        android:id="@+id/LetterIndexSlideBar"
+        android:layout_width="85dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="right"
+        app:paddingTop="130dp"
+        app:leftHintViewWidth="60dp"
+        app:leftHintViewHeight="49dp"
+        app:leftHintViewBgRes="@drawable/icon_zoom"
+        app:barWidth="25dp"
+        app:selectCircleBackgroundColor="#ff3c4c"
+        app:selectCircleRadius="6dp"/>
+</FrameLayout>
